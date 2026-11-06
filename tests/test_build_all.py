@@ -37,8 +37,9 @@ class BuildAllTests(unittest.TestCase):
         self.assertEqual(b.effective_config(base, None), base)
 
     def test_blend_path(self):
-        self.assertEqual(b.blend_path({"blend": "D:/x/A.blend"}), "D:/x/A.blend")
-        self.assertEqual(b.blend_path({"blend": "D:/x/A.blend"}, "B.blend"), os.path.abspath("B.blend"))
+        absolute = os.path.abspath(os.path.join("x", "A.blend"))  # absolute on every OS
+        self.assertEqual(b.blend_path({"blend": absolute}), absolute)
+        self.assertEqual(b.blend_path({"blend": absolute}, "B.blend"), os.path.abspath("B.blend"))
 
     def test_relative_blend_path_is_relative_to_project_root(self):
         self.assertEqual(b.blend_path({"blend": "CityScene.blend"}), os.path.join(b.ROOT, "CityScene.blend"))
