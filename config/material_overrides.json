@@ -1,0 +1,10 @@
+{
+  "LED Bulb": {"type": "emissive", "color": "#bc3939", "emissive": "#ff4f4f", "emissiveIntensity": 5.0, "roughness": 0.22, "metalness": 0.0, "_note": "emission as in Blender: colour (1, 0.08, 0.08) linear = #ff4f4f, strength 5.03"},
+  "LED Bulb.001": {"type": "emissive", "color": "#bc9f38", "emissive": "#ffd84f", "emissiveIntensity": 5.0, "roughness": 0.22, "metalness": 0.0, "_note": "emission as in Blender: colour (1, 0.69, 0.08) linear = #ffd84f, strength 5.03"},
+  "Automotive led lights": {"type": "emissive", "color": "#e7cdcf", "emissive": "#e7cdcf", "emissiveIntensity": 8.0, "roughness": 0.34, "metalness": 0.0, "_note": "estimated from nodes: group 'Light Intensity' 200000 has no direct web unit; intensity set on a log scale"},
+  "Automotive led lights.HOUSE": {"type": "emissive", "color": "#e7dcc3", "emissive": "#e7dcc3", "emissiveIntensity": 3.0, "roughness": 0.34, "metalness": 0.0, "_note": "estimated from nodes: group 'Light Intensity' 1000 has no direct web unit; intensity set on a log scale"},
+  "Automotive led lights soft": {"type": "emissive", "color": "#e7cdcf", "emissive": "#e7cdcf", "emissiveIntensity": 5.0, "roughness": 0.34, "metalness": 0.0, "_note": "estimated from nodes: group 'Light Intensity' 20000 has no direct web unit; intensity set on a log scale"},
+  "GLASS": {"type": "glass", "color": "#ffffff", "opacity": 0.3, "roughness": 0.5, "metalness": 0.0, "transmission": 1.0, "_note": "Glass BSDF white, roughness 0.5, IOR 1.45; opacity estimated"},
+  "Glass Transparent": {"type": "glass", "color": "#f8fffa", "opacity": 0.2, "roughness": 0.0, "metalness": 0.0, "transmission": 1.0, "_note": "Glass BSDF #f8fffa, roughness 0; transparent to shadow/reflection rays; opacity estimated"},
+  "EEVEE Glass Shader": {"type": "glass", "color": "#ffffff", "opacity": 0.3, "roughness": 0.0, "metalness": 0.0, "transmission": 1.0, "_note": "group Colour white, Roughness 0, Transparency 0.3, IOR 1.5; opacity estimated"}
+}

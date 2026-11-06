@@ -1,0 +1,10 @@
+{
+  "blend": "CityScene.blend",
+  "scene": "City scene",
+  "exclude_objects": ["Lampposts.001", "Lampposts.002", "Lampposts.003"],
+  "disable_modifiers": ["BEVEL"],
+  "texture_max_px": 2048,
+  "bake_px": 1024,
+  "collision": {"min_size_m": 0.3, "exclude": ["the wire", "Flags", "Circle", "Business center logo", "Paintings"]},
+  "overrides_file": "config/material_overrides.json"
+}

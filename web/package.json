@@ -1,0 +1,40 @@
+{
+  "name": "cityscene-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "optimize-models": "node scripts/optimize-models.mjs",
+    "screenshot": "node scripts/screenshot.mjs",
+    "e2e": "node e2e/run.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.187.0",
+    "three-mesh-bvh": "0.9.16",
+    "zustand": "5.0.8"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/extensions": "4.5.1",
+    "@gltf-transform/functions": "4.5.1",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@types/three": "0.180.0",
+    "@vitejs/plugin-react": "5.1.0",
+    "meshoptimizer": "0.25.0",
+    "playwright-core": "1.56.1",
+    "sharp": "0.34.5",
+    "typescript": "5.9.3",
+    "vite": "8.3.5",
+    "vitest": "4.0.8"
+  }
+}

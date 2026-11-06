@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.blend1
+*.blend2
+node_modules/
+web/dist/
+.claude/settings.local.json
+.superpowers/
+blender/cache/
+.DS_Store
+Thumbs.db
+
+# source scene (479 MB); exported by build_all.py, never committed
+/CityScene.blend
+
+# changes on every run (timings)
+/web/public/data/build_report.json
+
+# generated or third-party assets (never committed)
+web/public/models/
+web/public/data/
+web/public/textures/sky.hdr
+docs/screenshots/
+web/e2e/report*.json
+*.blend

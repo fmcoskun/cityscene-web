@@ -1,0 +1,5 @@
+# esbuild's optional install script is not needed: Vite 8 bundles with Rolldown.
+# sharp ships ready-built binaries, so its install script is not needed either.
+allowBuilds:
+  esbuild: false
+  sharp: false
